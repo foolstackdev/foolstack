@@ -1,2 +1,0 @@
-# foolstack
-Our website
