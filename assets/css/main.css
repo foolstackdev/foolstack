@@ -1913,7 +1913,7 @@
 				font-weight: 700;
 				text-transform: uppercase;
 				padding: 3em 0 0.5em 0px;
-				background: #fff;
+				background: transparent;
 				margin: 0 auto;
 				position: absolute;
 				top: 30%;
@@ -1924,11 +1924,11 @@
 				#header .logo {
 					position: relative;
 					text-align: center;
-					border-top: solid 5px #e7eae8;
+					/* border-top: solid 5px #e7eae8; */
 				}
 
 					#header .logo div {
-						background: #fff;
+						background: transparent;
 						position: relative;
 						display: inline-block;
 						padding: 0 1.5em 0 1.5em;
@@ -1937,6 +1937,7 @@
 
 					#header .logo h1 {
 						display: inline;
+
 					}
 
 					#header .logo p {
@@ -2660,6 +2661,11 @@
 				-webkit-transform: translateX(0);
 				-ms-transform: translateX(0);
 				transform: translateX(0);
+			}
+
+			.logo container{
+				background: transparent;
+
 			}
 
 	}
