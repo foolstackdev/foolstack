@@ -22,11 +22,8 @@ procedura push branch
     5) terminato il salvataggio in basso a sinistra cliccare sulla nuvolotta per push
 
 Comandi utili:
-Cancellare un branch: git branch collaudo_Giulio_FixContatti -d
-Cancellare un branch non pushato: git branch -D Nomebranch
+Cancellare un branch: git branch -D Nomebranch
 Aggiorna i branch di git hab con vscode: git fetch --prune
-
-
 
 per modificare shorcut da tastiera:
 file-> preferenze-> tasti scelta rapida
