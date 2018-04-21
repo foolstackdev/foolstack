@@ -1,0 +1,33 @@
+Procedura per clonare progetto
+    1) aprire vs code
+    2) ctrl+shift+p
+    3) clona 
+    4) copia l'indirizzo ittps da git hub
+    5) incolla su vs code
+    6) invio
+    7) scegli percorso
+    8) invio
+
+procedura staccare branch e lavorare il team
+    1) imporante gardare in basso a sinistra su vscode il ramo corrente
+    2) clicca sul nome del ramo
+    3) si apre elenco per scegliere un ramo gia esistente o crearne uno nuovo
+    4) crea nuovo branch
+
+procedura push branch
+    1) selezionare 3a icona a sinistra, reporitory git
+    2) assicurarsi di aver salvato tt i file
+    3) scrivere commento della modifica effettuata
+    4) clicca suulla spunta per committare (salvataggio in locale del repositori)
+    5) terminato il salvataggio in basso a sinistra cliccare sulla nuvolotta per push
+
+Comandi utili:
+Cancellare un branch: git branch collaudo_Giulio_FixContatti -d
+Cancellare un branch non pushato: git branch -D Nomebranch
+Aggiorna i branch di git hab con vscode: git fetch --prune
+
+
+
+per modificare shorcut da tastiera:
+file-> preferenze-> tasti scelta rapida
+formatta documento:(allinea codice ctrl+k+c in visual studio )
