@@ -28,3 +28,6 @@ Aggiorna i branch di git hab con vscode: git fetch --prune
 per modificare shorcut da tastiera:
 file-> preferenze-> tasti scelta rapida
 formatta documento:(allinea codice ctrl+k+c in visual studio )
+
+comdando per autenticazione git huib su vs code AUTOMATICA
+git remote set-url origin https://username:password@github.com/foolstackdev/foolstack
