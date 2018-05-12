@@ -21,8 +21,9 @@ procedura push branch
     4) clicca suulla spunta per committare (salvataggio in locale del repositori)
     5) terminato il salvataggio in basso a sinistra cliccare sulla nuvolotta per push
 
-Comandi utili:
-Cancellare un branch: git branch -D Nomebranch
+Comandi utili:(da ternminale)
+Attenzione: per andare su console cliccare ctrl e ò.
+Cancellare un branch: digitare su terminale "git branch -D Nomebranch"
 Aggiorna i branch di git hab con vscode: git fetch --prune
 
 per modificare shorcut da tastiera:
