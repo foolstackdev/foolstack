@@ -24,18 +24,6 @@ procedura push branch
 Comandi utili:(da ternminale)
 Attenzione: per andare su console cliccare ctrl e ò.
 Cancellare un branch: digitare su terminale "git branch -D Nomebranch"
-per modificare shorcut da tastiera:
-file-> preferenze-> tasti scelta rapida
-formatta documento:(allinea codice ctrl+k+c in visual studio )
-
-COMANDI UTILI:
-Cancellare un branch: git branch -D Nomebranch
 Aggiorna i branch di git hab con vscode: git fetch --prune
 Comdando per autenticazione git hub su vs code AUTOMATICA: git remote set-url origin https://username:password@github.com/foolstackdev/foolstack
 
-per modificare shorcut da tastiera:
-file-> preferenze-> tasti scelta rapida
-formatta documento:(allinea codice ctrl+k+c in visual studio )
-
-comdando per autenticazione git huib su vs code AUTOMATICA
-git remote set-url origin https://username:password@github.com/foolstackdev/foolstack

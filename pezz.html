@@ -8,6 +8,9 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="assets/css/bootstrap.css" />
+		<link rel="stylesheet" href="assets/css/carousel.css" />
+		
 	</head>
 	<body>
 		<div id="page-wrapper">
@@ -20,7 +23,6 @@
 						</div>
 					</div>
 				</header>
-
 			<!-- Nav -->
 			<nav id="nav">
 				<ul>
@@ -82,8 +84,39 @@
 											</header>
 
 											<section>
-												 <span class="image featured"><img src="images/petsitting.jpg" alt="" /></span>
-												 <!-- <span><img src="images/petsitting.jpg" alt="" /></span>  -->
+												<div class="row carousel-holder">
+													<div class="col-md-12">
+														<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+															<ol class="carousel-indicators">
+																  <!-- pallini indicatori scorrimento immagini-->
+																 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+																 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+																 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+																 
+															 </ol> 
+															<div class="carousel-inner">
+																<div class="item active ">
+																	<a href="Categorie/Timbri-datari.html"><img class="slide-image" src="images/alimentatore.jpg" alt="timbri"></a>
+																	<div class="carousel-caption"></div>
+																</div>
+																<div class="item">
+																	<a href="Categorie/Shopper-personalizzati.html"><img class="slide-image" src="images/banner.jpg" alt="shopper personalizzati"></a>
+																</div>
+																<div class="item">
+																	<a href=Categorie/Borse-Zaini-personalizzati.html><img class="slide-image" src="images/bassottoincasa.jpg" alt="zainetti personalizzati"></a>
+																</div>
+																
+															</div>
+															<!-- frecce scorrimento immagini -->
+															<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+																<span class="glyphicon glyphicon-chevron-left"></span>
+															</a>
+															<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+																<span class="glyphicon glyphicon-chevron-right"></span>
+															</a>
+														</div>
+													</div>
+												</div>
 												<p>
                                                     Stai via tutto il giorno da casa? Il tuo amico resta solo tutto il giorno? 
                                                     <br>Non ti preoccupare, c'è sempre chi si prende cura del tuo amico!</br>
@@ -322,6 +355,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/bootstrap.js"></script>
 
 	</body>
 </html>
