@@ -383,3 +383,12 @@ table a, #comments a{background-color:inherit;}
 
 	#pageintro .box{padding:100px 5%;}
 }
+
+.stickyTop {
+	position: sticky;
+	top: 0px;
+	z-index: 10;
+}
+.littleIcons {
+	width: 20px !important;
+}
